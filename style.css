@@ -4,6 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container > div{
+    border: 1px solid blue;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
 img{
     height: 4rem;
+}
+.sidebar-container{
+    grid-row: 1/3;
 }
