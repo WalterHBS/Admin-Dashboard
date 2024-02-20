@@ -66,3 +66,22 @@ input{
 input:focus{
     outline: 3px solid var(--main-color);
 }
+.prof-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prof-info > *{
+    margin: 0px 2px;
+}
+.prof-info >h3{
+    font-size: 1.4rem;
+}
+.prof-info > a >img{
+ height: 2rem;
+}
+.prof-info > a{
+    height: 2rem;
+    margin-right: 15px;
+}
+
