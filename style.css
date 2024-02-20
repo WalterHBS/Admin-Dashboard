@@ -28,3 +28,41 @@ img{
 .projet-container{
     grid-row: 1/3;
 }
+header{
+    display: flex;
+    flex-direction: column;
+}
+.upper-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.upper-header div, .upper-header form{
+    margin: 10px 40px 0px 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form > *{
+    height: 2rem;
+    margin: 0px 10px;
+}
+button>img{
+    height: 2rem;
+}
+.btn-search{
+   background: none;
+    border: none; 
+}
+input{
+    width: 31rem;
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: none;
+    padding: 2px;
+}
+input:focus{
+    outline: 3px solid var(--main-color);
+}
