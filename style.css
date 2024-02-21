@@ -198,7 +198,7 @@ color: white;
     margin-left: 50px;
 }
 .anc-container h2{
-margin: 0px 87px 20px
+margin: 0px 90.938px 20px
 }
 .Announcements{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -209,4 +209,33 @@ margin: 0px 87px 20px
 }
 .Announcements hr{
     margin: 15px 0px;
+}
+.trending-content{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 65%;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin: 0px auto;
+
+}
+.trending-profiles{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 15px;
+}
+
+.trending-profiles img{
+    height: 3.5rem;
+
+}
+.trend-name{
+    margin-left: 15px;
+}
+.trending-container{
+    margin: 30px 0px;
+}
+.trending-container h2{
+    margin: 0px 90.938px 20px
+
 }
