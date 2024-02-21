@@ -68,7 +68,7 @@ button>img{
     border: none; 
 }
 input{
-    width: 31rem;
+    width: 44rem;
     border-radius: 10px;
     background-color: #e1e1e1;
     border: none;
@@ -130,6 +130,8 @@ input:focus{
     margin: 0px 20px;
     border-radius: 20px;
     border: none;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
 .content-links a li, .profile-links a li{
@@ -141,9 +143,8 @@ input:focus{
 }
 .content-links img, .profile-links img{
     filter: invert(100%) sepia(16%) saturate(0%) hue-rotate(248deg) brightness(105%) contrast(106%);
-    height: 2.3rem;
-    margin: 0px 10px;
-
+    height: 2rem;
+    margin: 0px 20px 0px -10px;
 }
 .content-links li, .profile-links li{
     text-decoration: none;
@@ -151,11 +152,19 @@ input:focus{
     align-items: center;
     margin: 20px 0px;
 }
-.sidebar-container h2{
-margin: 25px 0px 0px 70px;
 
+.sidebar-container h2{
+margin: 25px 0px 0px 30px;
+display: flex;
+align-items: center;
  font-size: 2rem;
 color: white;
+}
+.sidebar-container h2 img{
+    filter: invert(100%) sepia(16%) saturate(0%) hue-rotate(248deg) brightness(105%) contrast(106%);
+    height: 3rem;
+    margin: 0px 8px 0px 3px;
+
 }
 .title-sidebar{
     margin-top: 25px;
@@ -176,8 +185,8 @@ color: white;
 }
 .project-containers{
     margin: auto;
-    width: 90%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     padding: 15px 0px 0px 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
@@ -195,10 +204,10 @@ color: white;
     border-radius: 10px 0px 0px 10px;
 }
 .projet-container h2{
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .anc-container h2{
-margin: 0px 90.938px 20px
+margin: 0px 105px 20px
 }
 .Announcements{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -233,9 +242,9 @@ margin: 15px;
     margin-left: 15px;
 }
 .trending-container{
-    margin: 30px 0px;
+height: 100%;
 }
 .trending-container h2{
-    margin: 0px 90.938px 20px
+    margin: 20px 105px 20px
 
 }
